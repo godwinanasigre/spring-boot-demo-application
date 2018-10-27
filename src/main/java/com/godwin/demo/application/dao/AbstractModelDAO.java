@@ -13,7 +13,7 @@ public abstract class AbstractModelDAO<T> implements ModelDAO<T>{
 
 	@Override
 	public T get(String id) {
-		return (T)getModelMapper().get(id);
+		return getModelMapper().get(id);
 	}
 
 	@Override
