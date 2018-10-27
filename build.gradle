@@ -26,6 +26,8 @@ repositories {
 
 
 dependencies {
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.6.1'
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.6.1'
 	compileOnly 'org.projectlombok:lombok:1.18.2'
 	implementation('org.springframework.boot:spring-boot-starter-actuator')
 	implementation('org.springframework.boot:spring-boot-starter-web')
