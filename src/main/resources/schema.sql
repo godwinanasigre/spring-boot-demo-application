@@ -6,3 +6,4 @@ CREATE TABLE station (
 );
 
 CREATE INDEX stationName ON station(name);
+CREATE INDEX stationHdEnabled ON station(hdEnabled);
